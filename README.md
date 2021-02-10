@@ -5,7 +5,10 @@ The aim of this exercise to present a strategy to achieve moderate returns using
 2.	45% of capital - Vanguard FTSE Developed Markets ETF (“VEA”)
 3.	15% of capital - SPDR Gold Trust (“GLD”)
 The reasons for selecting REIT, ETFs and Gold are for diversification and for their inherent qualities of having a consistent rising momentum throughout the decade and stable growth over longer period of time.  In addition, the REIT asset class distributes their profits as dividends which could be an uplift to the capital invested.  In short, we believe that the above allocation optimizes the returns for the investors over a longer time period.  The CAGR is expected to be ~4% over 10 year period.  The important point to note is, the portfolio has performed through the Global, financial crisis, US debt crisis, European debt crisis, Fukushima meltdown and the latest COV-ID pandemic. 
-Portfolio Performance – Period Jan 2011- Jan 2021
+
+### Portfolio Performance – Period Jan 2011- Jan 2021
+
+![performance] (https://github.com/Bensonlmx/quantconnect-algotrading/blob/master/performance.png)
 
 #### Methods
 
