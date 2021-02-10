@@ -1,4 +1,4 @@
-#### Strategy Introduction
+### Strategy Introduction
 
 The aim of this exercise to present a strategy to achieve moderate returns using a balanced portfolio of assets. For this purpose, we have allocated capital in the following asset classes identified at the specified percentages 
 1.	40% of capital - Top performing REIT Stocks from the S & P (“SPY”) index
@@ -10,7 +10,7 @@ The reasons for selecting REIT, ETFs and Gold are for diversification and for th
 
 ![performance](https://github.com/Bensonlmx/quantconnect-algotrading/blob/master/performance.png)
 
-#### Methods
+### Methods
 
 As indicated, the assets in the portfolio were identified to provide stable returns.  To fine tune the returns, the momentum strategy is adopted.  This momentum strategy assumes that the asset which grows strongly in the past will continue to grow in the near future too.  This strategy captures the rate of change over a period of 11 months and reallocates the portfolio to provide stable returns on quarterly basis.  The following trading confirmations are made in the algorithm to safeguard investor’s interest
 
