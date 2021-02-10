@@ -8,7 +8,7 @@ The reasons for selecting REIT, ETFs and Gold are for diversification and for th
 
 ### Portfolio Performance – Period Jan 2011- Jan 2021
 
-![performance] (https://github.com/Bensonlmx/quantconnect-algotrading/blob/master/performance.png)
+![performance](https://github.com/Bensonlmx/quantconnect-algotrading/blob/master/performance.png)
 
 #### Methods
 
@@ -21,3 +21,22 @@ As indicated, the assets in the portfolio were identified to provide stable retu
 The algorithm selects the REIT stocks on the basis of coarse and fine universe selection. In this an investment universe of coarse stocks pack that have prices greater than US$, contains fundamental data and have a trading volume more than 1,000,000 is created and then from this coarse stocks pack, the algorithm filters out the REIT only stocks using the Morningstar field “IsREIT” property.
 
 From the fine-tuned stock pack, the algorithm calculates each REIT’s 11 month return one month lagged and rank them in the ascending order.  Once ranked bottom to top, the algorithm picks up the top 5-10 performing stocks from the fine-tuned list and invests accordingly.
+
+### Key Statistics			
+Day's Live		          CAGR	          3.4 %
+Turnover	        1%	  Drawdown	      21.4 %
+Kelly Estimate	  0.0	  Sharpe Ratio	  0.4
+Probabilistic SR	2%	  Information Ratio	-0.5
+Markets	Equity	        Trades Per Day	0.2
+
+### Cumulative Returns
+
+![cu_performance](https://github.com/Bensonlmx/quantconnect-algotrading/blob/master/cu_performance.png)
+
+### Drawdown
+
+![drawdown](https://github.com/Bensonlmx/quantconnect-algotrading/blob/master/drawdown.png)
+
+### Dashboard
+
+![dashboard](https://github.com/Bensonlmx/quantconnect-algotrading/blob/master/dashboard.png)
